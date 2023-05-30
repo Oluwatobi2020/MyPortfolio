@@ -8,10 +8,10 @@ const HeroLayout = ({ children }) => {
       sx={{
         backgroundImage: `url("/bg-2.jpg")`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: `100%`,
+        backgroundSize: `100% 100%`,
         // height:"100vh",
         width:"100%",
-        padding:"3rem"
+        padding:{lg:"3rem", md:"3rem", sm:"2rem", xs:"1rem"}
       }}
     >
       {children}

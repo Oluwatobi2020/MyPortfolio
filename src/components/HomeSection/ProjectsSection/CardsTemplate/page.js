@@ -24,7 +24,7 @@ const CardsTemplate = ({ title, description, projectImage, links }) => {
       </CardContent>
       <CardActions>
         <Link href={links} passHref>
-        <Button size="small">View Project</Button>
+        <Button size="small" sx={{fontSize:"0.8em", textTransform:"none"}}>View Project</Button>
         </Link>
       </CardActions>
     </Card>

@@ -7,12 +7,27 @@ import HeroLayout from "./layout";
 const HeroSection = () => {
   return (
     <HeroLayout>
-      <Box sx={{ padding: "2rem" }}>
-        <Grid container spacing={2} sx={{ padding: "3rem 0 3rem 0" }}>
-          <Typography sx={{ fontSize: "5em", color:"#424956" }}>
+      <Box sx={{ padding: "2rem", width: "100%" }}>
+        <Grid
+          container
+          spacing={2}
+          sx={{ padding: "3rem 0 3rem 0", width: "100%" }}
+        >
+          <Typography
+            sx={{
+              fontSize: {
+                lg: "5em",
+                md: "3.5em",
+                sm: "2.5em",
+                xs: "1.5em",
+                width: { lg: "0", md: "0%", sm: "0%", xs: "100%" },
+              },
+              color: "#424956",
+            }}
+          >
             Hello! <br />
             My name is{" "}
-            <span style={{color:"#2B4679"}}>Oluwatobi Ojedeji</span>
+            <span style={{ color: "#2B4679" }}>Oluwatobi Ojedeji</span>
             <br />A talented UX-Designer
             <br /> and Frontend developer.
           </Typography>
