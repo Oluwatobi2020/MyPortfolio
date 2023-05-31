@@ -7,7 +7,7 @@ const AboutSection = () => {
     <AboutLayout>
       <Box
         sx={{
-          padding: "3rem",
+          padding: { lg: "3rem", md: "3rem", sm: "0", xs: "0" },
           width: "100%",
           display: "flex",
           flexDirection: "column",
@@ -42,7 +42,7 @@ const AboutSection = () => {
           container
           spacing={2}
           sx={{
-            width: "50%",
+            width: { lg: "50%", md: "70%", sm: "100%", xs: "100%" },
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -60,7 +60,7 @@ const AboutSection = () => {
               alignItems: "center",
               background:
                 "linear-gradient(138.76deg, rgba(84, 108, 154, 0.26) -4.59%, rgba(84, 108, 154, 0.7) 115.7%)",
-              padding: "3rem",
+              padding: { lg: "3rem", md: "3rem", sm: "3rem", xs: "0 1rem 0 0" },
               boxShadow: "0px 4px 50px 22px rgba(0, 0, 0, 0.14)",
               borderRadius: "10px",
             }}
@@ -76,6 +76,7 @@ const AboutSection = () => {
                   textAlign: "center",
                   color: "#EEEDED",
                   padding: "2rem 0 0 0",
+                  fontSize: { lg: "1em", md: "1em", sm: "1em", xs: "0.7em" },
                 }}
               >
                 I'm a BSc. degree holder from the University of Ibadan, Ibadan,

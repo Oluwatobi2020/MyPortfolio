@@ -12,7 +12,7 @@ import Link from "next/link";
 const CardsTemplate = ({ title, description, projectImage, links }) => {
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width:"100%" }}>
       <CardMedia sx={{ height: 140 }} image={projectImage} title={title} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

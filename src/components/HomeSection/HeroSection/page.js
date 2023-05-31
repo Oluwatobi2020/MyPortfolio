@@ -22,12 +22,12 @@ const HeroSection = () => {
                 xs: "1.5em",
                 width: { lg: "0", md: "0%", sm: "0%", xs: "100%" },
               },
-              color: "#424956",
+              color: "#fff",
             }}
           >
             Hello! <br />
             My name is{" "}
-            <span style={{ color: "#2B4679" }}>Oluwatobi Ojedeji</span>
+            <span style={{ color: "#fff" }}>Oluwatobi Ojedeji</span>
             <br />A talented UX-Designer
             <br /> and Frontend developer.
           </Typography>
@@ -38,17 +38,17 @@ const HeroSection = () => {
           sx={{ display: "flex", alignItems: "center", padding: "1rem 0 0 0" }}
         >
           <Grid items sx={{ marginRight: "3rem" }}>
-            <Link href="/github" passHref>
-              <FaGithub size={25} />
+            <Link href="https://github.com/Oluwatobi2020" passHref>
+              <FaGithub size={25} color="#fff"/>
             </Link>
           </Grid>
           <Grid items sx={{ marginRight: "3rem" }}>
-            <Link href="/linkedIn" passHref>
+            <Link href="https://www.linkedin.com/in/ojedeji-oluwatobi-samuel-882588a6" passHref>
               <FaLinkedinIn size={25} color="#1e2694" />
             </Link>
           </Grid>
           <Grid items>
-            <Link href="/twitter" passHref>
+            <Link href="#" passHref>
               <FaTwitter size={25} color="#138dbc" />
             </Link>
           </Grid>
