@@ -7,12 +7,17 @@ const AboutLayout = ({ children }) => {
       sx={{
         background: "#E1EBFF",
         width: "100%",
-        height: "90vh",
+        // height: "90vh",
         padding: "3rem",
-        justifyContent:"center",
+        justifyContent: "center",
       }}
     >
-      <Box sx={{ width: "100%"}}>
+      <Box
+        sx={{
+          width: "100%",
+          paddingBottom: { lg: "0rem", md: "0rem", sm: "3rem", xs: "3rem" },
+        }}
+      >
         <Grid container spacing={2}>
           <Typography
             variant="h6"
