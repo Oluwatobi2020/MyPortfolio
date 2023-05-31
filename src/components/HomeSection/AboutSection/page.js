@@ -79,7 +79,7 @@ const AboutSection = () => {
                   fontSize: { lg: "1em", md: "1em", sm: "1em", xs: "0.7em" },
                 }}
               >
-                I'm a BSc. degree holder from the University of Ibadan, Ibadan,
+                I&apos;m a BSc. degree holder from the University of Ibadan, Ibadan,
                 Nigeria and have over three years experience as a front end
                 developer and UX Designer. I have excellent knowledge of HTML,
                 CSS, SCSS, AntD, Bootstrap, MUI, Javascript, Typescript
