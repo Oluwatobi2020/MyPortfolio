@@ -1,17 +1,18 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
 
-const AboutLayout = ({ children }) => {
+const ProjectLayout = ({ children }) => {
   return (
     <Box
       sx={{
-        background: "#323338",
+        background: "#2C2D32",
         width: "100%",
         height: "100vh",
         padding: "0 3rem 0 3rem",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
+        alignItems:"center",
       }}
     >
       <Box
@@ -23,7 +24,7 @@ const AboutLayout = ({ children }) => {
           alignItems: "center",
         }}
       >
-        <Grid sx={{ paddingTop: "2rem"}}>
+        <Grid sx={{paddingTop:"2rem"}}>
           <Typography
             sx={{
               color: "#078942",
@@ -32,7 +33,7 @@ const AboutLayout = ({ children }) => {
               textTransform: "uppercase",
             }}
           >
-            Services
+            portfolio
           </Typography>
         </Grid>
         <Grid>
@@ -43,13 +44,34 @@ const AboutLayout = ({ children }) => {
               fontWeight: "600",
             }}
           >
-            What I am Great At
+            My Masterpiece Collection
           </Typography>
         </Grid>
+        {/* <Grid
+          sx={{ width: "100%", display:"flex", justifyContent: "center", alignItems: "center" }}
+        >
+          <Typography
+            sx={{
+              color: "#fff",
+              fontSize: "1em",
+              textAlign: "center",
+              fontWeight:"300",
+              width: "50%",
+            }}
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </Typography>
+        </Grid> */}
       </Box>
       <Box
         sx={{
           width: "100%",
+          display:"flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
         <Grid container spacing={2}>
@@ -60,4 +82,4 @@ const AboutLayout = ({ children }) => {
   );
 };
 
-export default AboutLayout;
+export default ProjectLayout;

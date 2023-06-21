@@ -18,8 +18,7 @@ const NavBar = ({ children }) => {
       <AppBar
         position="fixed"
         sx={{
-          background:
-            "linear-gradient(128.85deg, #7A99D6 2.46%, rgba(157, 184, 237, 0.86) 54%, rgba(179, 204, 252, 0) 118.56%)",
+          background:"#2C2D32",
         }}
       >
         <Toolbar>
@@ -30,8 +29,8 @@ const NavBar = ({ children }) => {
           >
             <Grid item xs={12} sm={12} md={6} lg={6}>
               <Link href="/" passHref>
-                <Typography sx={{ color: "#fff", fontSize: "0.8em" }}>
-                  Oluwatobi.
+                <Typography sx={{ color: "#fff", fontSize: "1.5em" }}>
+                  OS.
                 </Typography>
               </Link>
             </Grid>

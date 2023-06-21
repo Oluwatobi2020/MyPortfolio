@@ -52,8 +52,86 @@ const ProjectData = () => {
       },
     ];
 
+    const skillsList = [
+      {
+        id: 1,
+        icon: "/adobexd.svg",
+        name: "Adobe XD",
+      },
+      {
+        id: 2,
+        icon: "/figma.svg",
+        name: "Figma",
+      },
+      {
+        id: 3,
+        icon: "/html.svg",
+        name: "HTML",
+      },
+      {
+        id: 4,
+        icon: "/css3.svg",
+        name: "CSS",
+      },
+      {
+        id: 5,
+        icon: "/javascript.svg",
+        name: "Javascript",
+      },
+      {
+        id: 6,
+        icon: "/typescript.svg",
+        name: "Typescript",
+      },
+      {
+        id: 7,
+        icon: "/reactjs.svg",
+        name: "React Js",
+      },
+      {
+        id: 8,
+        icon: "/nextjs.svg",
+        name: "Next Js",
+      },
+    ];
+
+    const contactsList = [
+      {
+        id: 1,
+        icon: "/phone.svg",
+        type:"+234-807-647-9808",
+        link:"",
+      },
+      {
+        id: 2,
+        icon: "/whatsapp.svg",
+        type:"+234-703-034-0143",
+        link:"https://wa.me/+2347030340143",
+      },
+      {
+        id: 3,
+        icon: "/github.svg",
+        type:"github",
+        link:"https://github.com/Oluwatobi2020",
+      },
+      {
+        id: 4,
+        icon: "/linkedin.svg",
+        type:"linkedIn",
+        link:"https://www.linkedin.com/in/ojedeji-oluwatobi-samuel-882588a6/",
+      },
+      {
+        id: 5,
+        icon: "/instagram.svg",
+        type:"instagram",
+        link:"https://www.instagram.com/ojedejitobi/",
+      },
+    ]
+
     return{
-        projectItems
+        projectItems,
+        skillsList,
+        contactsList,
     }
 }
 
