@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
 
-const AboutLayout = ({ children }) => {
+const ContactLayout = ({ children }) => {
   return (
     <Box
       sx={{
@@ -32,7 +32,7 @@ const AboutLayout = ({ children }) => {
               textTransform: "uppercase",
             }}
           >
-            Services
+            contact me
           </Typography>
         </Grid>
         <Grid>
@@ -43,7 +43,7 @@ const AboutLayout = ({ children }) => {
               fontWeight: "600",
             }}
           >
-            What I am Great At
+            Ways To Contact Me
           </Typography>
         </Grid>
       </Box>
@@ -60,4 +60,4 @@ const AboutLayout = ({ children }) => {
   );
 };
 
-export default AboutLayout;
+export default ContactLayout;

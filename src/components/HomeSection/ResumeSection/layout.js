@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
 
-const AboutLayout = ({ children }) => {
+const ResumeLayout = ({ children }) => {
   return (
     <Box
       sx={{
@@ -12,6 +12,7 @@ const AboutLayout = ({ children }) => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <Box
@@ -23,7 +24,7 @@ const AboutLayout = ({ children }) => {
           alignItems: "center",
         }}
       >
-        <Grid sx={{ paddingTop: "2rem"}}>
+        <Grid>
           <Typography
             sx={{
               color: "#078942",
@@ -32,7 +33,7 @@ const AboutLayout = ({ children }) => {
               textTransform: "uppercase",
             }}
           >
-            Services
+            resume
           </Typography>
         </Grid>
         <Grid>
@@ -43,21 +44,22 @@ const AboutLayout = ({ children }) => {
               fontWeight: "600",
             }}
           >
-            What I am Great At
+            A Summary Of My Achievements
           </Typography>
         </Grid>
       </Box>
       <Box
         sx={{
           width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        <Grid container spacing={2}>
-          {children}
-        </Grid>
+        <Grid container>{children}</Grid>
       </Box>
     </Box>
   );
 };
 
-export default AboutLayout;
+export default ResumeLayout;
