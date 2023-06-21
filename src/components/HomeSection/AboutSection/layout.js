@@ -7,11 +7,12 @@ const AboutLayout = ({ children }) => {
       sx={{
         background: "#323338",
         width: "100%",
-        height: "100vh",
-        padding: "0 3rem 0 3rem",
+        // height: "100vh",
+        padding: "0 3rem 3rem 3rem",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
+        alignItems:"center",
       }}
     >
       <Box
@@ -21,6 +22,7 @@ const AboutLayout = ({ children }) => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          paddingBottom:{xs:"2rem", sm:"2rem"},
         }}
       >
         <Grid sx={{ paddingTop: "2rem"}}>
@@ -39,8 +41,9 @@ const AboutLayout = ({ children }) => {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: "2em",
+              fontSize: { lg: "2em", md: "2em", sm: "1.5em", xs: "1.5em" },
               fontWeight: "600",
+              textAlign:"center"
             }}
           >
             What I am Great At

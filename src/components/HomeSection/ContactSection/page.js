@@ -10,7 +10,7 @@ const ContactSection = () => {
     <ContactLayout>
       <Box
         sx={{
-          padding: { lg: "3rem", md: "3rem", sm: "0", xs: "0" },
+          padding: "3rem",
           width: "100%",
           display: "flex",
           flexDirection: "column",

@@ -49,21 +49,21 @@ const NavBar = ({ children }) => {
               }}
             >
               <Grid>
-                <Link href="/about" passHref>
+                <Link href="#" passHref>
                   <Typography sx={{ color: "#fff", fontSize: "0.8em" }}>
                     About
                   </Typography>
                 </Link>
               </Grid>
               <Grid>
-                <Link href="/my-projects" passHref>
+                <Link href="#" passHref>
                   <Typography sx={{ color: "#fff", fontSize: "0.8em" }}>
                     Projects
                   </Typography>
                 </Link>
               </Grid>
               <Grid>
-                <Link href="/my-resume" passHref>
+                <Link href="#" passHref>
                   <Typography sx={{ color: "#fff", fontSize: "0.8em" }}>
                     Resume
                   </Typography>

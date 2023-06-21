@@ -7,7 +7,7 @@ const HeroLayout = ({ children }) => {
     <Box
       sx={{
         background:"#2C2D32",
-        height: "100vh",
+        // height: "100vh",
         width: "100%",
         padding: { lg: "3rem 3rem 0 3rem", md: "3rem", sm: "2rem", xs: "1rem" },
         display: "flex",

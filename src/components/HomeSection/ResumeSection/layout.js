@@ -7,8 +7,8 @@ const ResumeLayout = ({ children }) => {
       sx={{
         background: "#323338",
         width: "100%",
-        height: "100vh",
-        padding: "0 3rem 0 3rem",
+        // height: "100vh",
+        padding: "3rem 3rem 0 3rem",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -22,6 +22,7 @@ const ResumeLayout = ({ children }) => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
+          paddingBottom:{xs:"2rem", sm:"2rem"},
         }}
       >
         <Grid>
@@ -40,8 +41,9 @@ const ResumeLayout = ({ children }) => {
           <Typography
             sx={{
               color: "#fff",
-              fontSize: "2em",
+              fontSize: { lg: "2em", md: "2em", sm: "1.5em", xs: "1.5em" },
               fontWeight: "600",
+              textAlign:"center"
             }}
           >
             A Summary Of My Achievements
