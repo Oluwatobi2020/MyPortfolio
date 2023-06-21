@@ -21,8 +21,8 @@ const AboutCards = ({ name, icon }) => {
     >
       <Card
         sx={{
-          width: "250px",
-          height: "250px",
+          width: "200px",
+          height: "200px",
           padding: "1rem",
           display: "flex",
           flexDirection: "column",
@@ -32,9 +32,9 @@ const AboutCards = ({ name, icon }) => {
           boxShadow: "0px 5px 5px rgba(0, 0, 0, 0.25)",
         }}
       >
-        <CardMedia sx={{ height: 100, width: 100 }} image={icon} />
+        <CardMedia sx={{ height: 50, width: 50 }} image={icon} />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{color:"#fff"}}>
+          <Typography gutterBottom component="div" sx={{color:"#fff", fontSize:"1em"}}>
             {name}
           </Typography>
         </CardContent>
