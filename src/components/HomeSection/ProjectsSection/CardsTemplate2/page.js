@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import Link from "next/link";
 
-const CardsTemplate = ({ title, description, projectImage, links }) => {
+const CardsTemplate2 = ({ title, description, projectImage, links }) => {
   return (
     <Box
       sx={{
@@ -65,4 +65,4 @@ const CardsTemplate = ({ title, description, projectImage, links }) => {
   );
 };
 
-export default CardsTemplate;
+export default CardsTemplate2;
