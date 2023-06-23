@@ -28,7 +28,7 @@ const ContactLayout = ({ children }) => {
         <Grid sx={{ paddingTop: "2rem" }}>
           <Typography
             sx={{
-              color: "#078942",
+              color: "primary.mainText",
               fontSize: "0.8em",
               fontWeight: "600",
               textTransform: "uppercase",

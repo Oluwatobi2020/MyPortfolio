@@ -49,7 +49,7 @@ const HeroSection = () => {
                 }}
               >
                 Oluwatobi
-                <br /> Samuel <span style={{ color: "#078942" }}>.</span>
+                <br /> Samuel <span style={{ color: "primary.mainText" }}>.</span>
               </Typography>
             </Grid>
             <Grid sx={{ paddingBottom: "1rem" }}>
@@ -57,7 +57,7 @@ const HeroSection = () => {
                 style={{
                   color: "#023E76",
                   width: "30px",
-                  border: "2px solid #078942",
+                  border: "2px solid primary.mainText",
                 }}
               />
             </Grid>
@@ -71,9 +71,9 @@ const HeroSection = () => {
               <Button
                 sx={{
                   background: "#2C2D32",
-                  color: "#078942",
+                  color: "primary.mainText",
                   fontWeight: "500",
-                  border: "2px solid #078942",
+                  border: "2px solid #3BC117",
                   borderRadius: "5px",
                   width: "150px",
                 }}
@@ -109,7 +109,7 @@ const HeroSection = () => {
                   fontSize: "1em",
                   fontWeight: "600",
                   textTransform: "uppercase",
-                  color: "#078942",
+                  color: "primary.mainText",
                 }}
               >
                 Introduction
@@ -144,7 +144,7 @@ const HeroSection = () => {
               </Typography>
             </Grid>
             <Grid sx={{ display: "flex", alignItems: "flex-end" }}>
-              <Button sx={{ color: "#078942" }}>Learn more</Button>
+              <Button sx={{ color: "primary.mainText" }}>Learn more</Button>
             </Grid>
           </Grid>
         </Grid>
