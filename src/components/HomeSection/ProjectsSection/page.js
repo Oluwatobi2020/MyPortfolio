@@ -59,16 +59,18 @@ const ProjectSection = () => {
             aria-label="basic tabs example"
             scrollButtons="auto"
             sx={{
+              fontSize:"0.8em",
               ".Mui-selected": {
                 color: "#3BC117 !important",
-                fontSize:"1.2em",
+                fontSize:"1.3em",
+                textDecoration:"underline"
               },
             }}
           >
             <Tab
               label="Frontend Projects"
               {...a11yProps(0)}
-              sx={{ color: "primary.mainText" }}
+              sx={{ color: "primary.mainText", fontWeight:"400" }}
             />
             <Tab
               label="UX Projects"
