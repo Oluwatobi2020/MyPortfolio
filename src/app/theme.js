@@ -42,11 +42,8 @@ export const theme = createTheme({
     },
     MuiTab: {
       root: {
-        color: "#3BC117",
-      },
-      styleOverrides:{
-        selected:{
-            color:"#3BC117"
+        "&.Mui-selected": {
+          "color": "#3BC117"
         }
       }
     },

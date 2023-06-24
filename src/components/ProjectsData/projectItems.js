@@ -8,7 +8,7 @@ const ProjectData = () => {
       projectImage: "/swap-money.png",
       links: "https://swap-money.netlify.app/",
       description:
-        "This is a core banking solution that helps microfinance banks to automate their banking processess",
+        "Swap money is a trusted and reliable Cross-border solutions for businesses. The platform offers multiple benefits...",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const ProjectData = () => {
       projectImage: "/canta.png",
       links: "https://canta-test.netlify.app/",
       description:
-        "This is a core banking solution that helps microfinance banks to automate their banking processess",
+        "This is a web application for paying suppliers from different coutries around the world.",
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ const ProjectData = () => {
       projectImage: "/checkout.png",
       links: "https://ace-coin-checkout-page.netlify.app/",
       description:
-        "This is a core banking solution that helps microfinance banks to automate their banking processess",
+        "This is just a simple checkout page that can be used to make online payments using credit/debit cards.",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const ProjectData = () => {
       projectImage: "/ach.png",
       links: "",
       description:
-        "This is a core banking solution that helps microfinance banks to automate their banking processess",
+        "This is a core banking solution for managing cheque and fund transfers in and out of commercial institutions",
     },
   ];
   const projectItems2 = [
@@ -51,7 +51,7 @@ const ProjectData = () => {
       links:
         "https://www.figma.com/proto/X9fnL3VKTk2txeyBwxA2DA/Nerdiness-Website?page-id=0%3A1&type=design&node-id=4-2&viewport=1378%2C11077%2C0.16&scaling=scale-down-width&starting-point-node-id=4%3A2",
       description:
-        "This is a core banking solution that helps microfinance banks to automate their banking processess",
+        "Nerdiness is a platform that offer multiple services ranging from custom made software and application design",
     },
     {
       id: 2,
@@ -60,7 +60,7 @@ const ProjectData = () => {
       links:
         "https://www.figma.com/proto/TPUiJXqWHdCOS3TOusoIJh/MediSave?page-id=0%3A1&node-id=38-24&starting-point-node-id=38%3A24&scaling=scale-down-width&mode=design",
       description:
-        "This is a core banking solution that helps microfinance banks to automate their banking processess",
+        "The initiative for medisave was to make quick and rapid professional medical services available to victims of accidents...",
     },
   ];
 

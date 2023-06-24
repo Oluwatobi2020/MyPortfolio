@@ -49,7 +49,8 @@ const HeroSection = () => {
                 }}
               >
                 Oluwatobi
-                <br /> Samuel <span style={{ color: "primary.mainText" }}>.</span>
+                <br /> Samuel{" "}
+                <span style={{ color: "primary.mainText" }}>.</span>
               </Typography>
             </Grid>
             <Grid sx={{ paddingBottom: "1rem" }}>
@@ -63,8 +64,15 @@ const HeroSection = () => {
             </Grid>
             <Grid sx={{ paddingBottom: "1rem" }}>
               <Typography>
-                <span style={{ cursor: "pointer" }}>Github</span> |{" "}
-                <span style={{ cursor: "pointer" }}>LinkedIn</span>{" "}
+                <Link href="https://github.com/Oluwatobi2020" passHref>
+                  <span style={{ cursor: "pointer" }}>Github</span> |{" "}
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/ojedeji-oluwatobi-samuel-882588a6/"
+                  passHref
+                >
+                  <span style={{ cursor: "pointer" }}>LinkedIn</span>{" "}
+                </Link>
               </Typography>
             </Grid>
             <Grid>
@@ -130,22 +138,21 @@ const HeroSection = () => {
             <Grid sx={{ paddingBottom: "1rem" }}>
               <Typography
                 sx={{
-                  width: {lg:"100%", md:"100%", sm:"80%", xs:"100%"},
+                  width: { lg: "100%", md: "100%", sm: "80%", xs: "100%" },
                   textAlign: "left",
                   color: "#fff",
                   fontSize: { lg: "1em", md: "1em", sm: "0.7em", xs: "0.7em" },
                   fontWeight: "400",
                 }}
               >
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don&#39;t look even
-                slightly believable.
+                I create intuitive user-centric designs and also very good at
+                converting design prototypes to codes engaging clean and
+                standard coding principles.
               </Typography>
             </Grid>
-            <Grid sx={{ display: "flex", alignItems: "flex-end" }}>
+            {/* <Grid sx={{ display: "flex", alignItems: "flex-end" }}>
               <Button sx={{ color: "primary.mainText" }}>Learn more</Button>
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
       </Box>
