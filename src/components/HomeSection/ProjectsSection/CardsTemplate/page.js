@@ -42,7 +42,7 @@ const CardsTemplate = ({ title, description, projectImage, links }) => {
             {title}
           </Typography>
           <Typography
-            sx={{ color: "#fff", fontSize: "0.7em", fontWeight: "400" }}
+            sx={{ color: "#fff", fontSize: "0.65em" }}
           >
             {description}
           </Typography>
