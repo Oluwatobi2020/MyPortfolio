@@ -46,6 +46,24 @@ const ProjectData = () => {
   const projectItems2 = [
     {
       id: 1,
+      name: "Links Property",
+      projectImage: "/linksproperty.png",
+      links:
+        "https://xd.adobe.com/view/79edc7e7-993a-42bf-a9c3-52f94eb8201e-2cbe/",
+      description:
+        "Links Property is a real estate application where properties are displayed for potential buyers..."
+    },
+    {
+      id: 2,
+      name: "EazziDeclutter",
+      projectImage: "/eazzideclutter.png",
+      links:
+        "https://xd.adobe.com/view/93ea367a-a0df-412e-8aa3-d889fc038c4a-c6b9/",
+      description:
+        "Eazzideclutter is an ecommerce platform where users can upload new or used household items and...",
+    },
+    {
+      id: 3,
       name: "Nerdiness",
       projectImage: "/nerdiness.png",
       links:
@@ -54,7 +72,7 @@ const ProjectData = () => {
         "Nerdiness is a platform that offer multiple services ranging from custom made software and application design",
     },
     {
-      id: 2,
+      id: 4,
       name: "Medisave",
       projectImage: "/medisave.png",
       links:
