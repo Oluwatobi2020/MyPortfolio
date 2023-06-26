@@ -75,7 +75,7 @@ const ProjectSection = () => {
             <Tab
               label="UX Projects"
               {...a11yProps(1)}
-              sx={{ color: "primary.mainText" }}
+              sx={{ color: "primary.mainText", fontWeight:"400" }}
             />
           </Tabs>
         </Box>
