@@ -47,7 +47,7 @@ const HeroSection = () => {
                   fontSize: { lg: "2em", md: "2em", sm: "1.5em", xs: "1.5em" },
                   fontWeight: "600",
                 }}
-              >
+              >Ojedeji<br/>
                 Oluwatobi
                 <br /> Samuel{" "}
                 <span style={{ color: "primary.mainText" }}>.</span>
