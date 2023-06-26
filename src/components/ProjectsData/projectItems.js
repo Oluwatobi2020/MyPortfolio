@@ -80,6 +80,24 @@ const ProjectData = () => {
       description:
         "The initiative for medisave was to make quick and rapid professional medical services available to victims of accidents...",
     },
+    {
+      id: 5,
+      name: "Uhuru Customer App",
+      projectImage: "/uhuru-1.png",
+      links:
+        "https://www.figma.com/proto/qny5CYcYiRJBjdGD1LojFO/Uhuru-Delivery-Customer?page-id=0%3A1&node-id=1%3A1778&viewport=356%2C1134%2C0.35&scaling=scale-down&starting-point-node-id=1%3A1911",
+      description:
+        "This is a cab hailing mobile application that helps users order for a quick ride and dispatch of goods...",
+    },
+    {
+      id: 6,
+      name: "Uhuru Driver App",
+      projectImage: "/uhuru-2.png",
+      links:
+        "https://www.figma.com/proto/yLhSHL21lLz9G5SUc2h1zI/Uhuru-Delivery-Driver?page-id=0%3A1&node-id=1%3A439&viewport=336%2C260%2C0.08&scaling=min-zoom&starting-point-node-id=1%3A439",
+      description:
+        "This a mobile app to manage drivers registered on the Uhuru platform.",
+    },
   ];
 
   const skillsList = [
