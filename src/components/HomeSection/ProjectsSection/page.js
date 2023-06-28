@@ -49,6 +49,9 @@ const ProjectSection = () => {
   };
   const { projectItems, projectItems2 } = ProjectData();
 
+
+
+
   return (
     <ProjectLayout>
       <Box sx={{ width: "100%" }}>
