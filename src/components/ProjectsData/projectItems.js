@@ -28,6 +28,14 @@ const ProjectData = () => {
     },
     {
       id: 4,
+      name: "Promptopia",
+      projectImage: "/promptopia.png",
+      links: "https://tobiprompt.netlify.app/",
+      description:
+        "Promptopia is an open source AI prompting tool for modern world to discover, create and share creative imports",
+    },
+    {
+      id: 5,
       name: "TME-Core",
       projectImage: "/tme-core.png",
       links: "",
@@ -35,13 +43,14 @@ const ProjectData = () => {
         "This is a core banking solution that helps microfinance banks to automate their banking processess",
     },
     {
-      id: 5,
+      id: 6,
       name: "ACH",
       projectImage: "/ach.png",
       links: "",
       description:
         "This is a core banking solution for managing cheque and fund transfers in and out of commercial institutions",
     },
+
   ];
   const projectItems2 = [
     {
