@@ -123,12 +123,17 @@ const ProjectData = () => {
     {
       id: 3,
       icon: "/html.svg",
-      name: "HTML",
+      name: "HTML5",
     },
     {
       id: 4,
       icon: "/css3.svg",
-      name: "CSS",
+      name: "CSS3",
+    },
+    {
+      id: 5,
+      icon: "/tailwind.svg",
+      name: "Tailwind",
     },
     {
       id: 5,
