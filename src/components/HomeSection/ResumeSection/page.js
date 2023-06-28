@@ -25,7 +25,7 @@ const ResumeSection = () => {
           }}
         >
           <iframe
-            src="/cv.pdf"
+            src="/oluwatobi.pdf"
             width="100%"
             height="500"
             type="application/pdf"
